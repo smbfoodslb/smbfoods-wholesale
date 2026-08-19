@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMB Foods — Wholesale Order Catalog</title>
+<meta name="description" content="Browse the SMB Foods / Organicopia wholesale catalog and send your order straight to WhatsApp.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="brand">
+        <span class="brand-name">SMB <em>Foods</em></span>
+        <span class="brand-sub">Home of <b>Organicopia</b> — Wholesale Order Catalog</span>
+      </div>
+      <button class="cart-toggle" id="cartToggle" aria-label="Open cart">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+    <div class="search-row">
+      <input type="search" id="searchInput" placeholder="Search products, brands, item #…" autocomplete="off">
+    </div>
+    <nav class="cat-nav" id="catNav" aria-label="Category navigation"></nav>
+  </header>
+
+  <main id="catalog"></main>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-drawer-head">
+      <h2>Your Order</h2>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Subtotal</span>
+        <span id="cartTotal">$0.00</span>
+      </div>
+      <p class="cart-note">Checkout opens WhatsApp with your order pre-filled — just hit send to confirm with us.</p>
+      <button class="checkout-btn" id="checkoutBtn" disabled>Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div>Soul Mind Body Foods SARL</div>
+    <div>+961 78 879 350 &nbsp;·&nbsp; sales@smbfoods-lb.com</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
