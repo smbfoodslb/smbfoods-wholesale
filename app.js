@@ -92,9 +92,11 @@ function cartControlHtml(p) {
   }
   const qty = cart[p.num] || 0;
   if (qty === 0) {
-    return `<button class="add-btn" data-add="${p.num}" aria-label="Add to cart">+</button>`;
+    return `<span class="card-line-total"></span><button class="add-btn" data-add="${p.num}" aria-label="Add to cart">+</button>`;
   }
+  const lineTotal = (p.price * qty).toFixed(2);
   return `
+    <span class="card-line-total">$${lineTotal}</span>
     <div class="qty-stepper" data-stepper="${p.num}">
       <button data-dec="${p.num}" aria-label="Decrease quantity">&minus;</button>
       <span class="qty-num">${qty}</span>

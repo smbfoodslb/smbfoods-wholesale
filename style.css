@@ -286,7 +286,14 @@ h1, h2, h3, .serif { font-family: Georgia, 'Liberation Serif', serif; }
   margin-top: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+.card-line-total {
+  font-family: 'Courier New', 'Liberation Mono', monospace;
+  font-weight: 700;
+  font-size: 14.5px;
+  color: var(--navy);
 }
 .add-btn {
   background: var(--navy);
