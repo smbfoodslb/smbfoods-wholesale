@@ -299,7 +299,8 @@ h1, h2, h3, .serif { font-family: Georgia, 'Liberation Serif', serif; }
 .price-pending { font-size: 13px; color: var(--gray-light); font-style: italic; }
 
 .card-cart-row {
-  margin-top: 10px;
+  margin-top: auto;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
