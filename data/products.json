@@ -261,6 +261,24 @@
             },
             {
               "num": 14,
+              "name": "Organic Turmeric Root Powder",
+              "brand": null,
+              "sub": null,
+              "tags": [
+                "70 g",
+                "India"
+              ],
+              "img": "organicopia-turmeric-root-powder.jpg",
+              "price": 2.0,
+              "case_qty": 6,
+              "case_price": 12.0,
+              "status": null,
+              "is_new": true,
+              "back_in_stock": false,
+              "section": "own"
+            },
+            {
+              "num": 15,
               "name": "Organic Garlic Powder",
               "brand": null,
               "sub": null,
@@ -278,7 +296,7 @@
               "section": "own"
             },
             {
-              "num": 15,
+              "num": 16,
               "name": "Organic Blackened Cajun Seasoning",
               "brand": null,
               "sub": null,
@@ -296,7 +314,7 @@
               "section": "own"
             },
             {
-              "num": 16,
+              "num": 17,
               "name": "Organic Smoked Paprika",
               "brand": null,
               "sub": null,
@@ -314,7 +332,7 @@
               "section": "own"
             },
             {
-              "num": 17,
+              "num": 18,
               "name": "Organic Cayenne Pepper",
               "brand": null,
               "sub": "50,000 SHU",
@@ -332,7 +350,7 @@
               "section": "own"
             },
             {
-              "num": 18,
+              "num": 19,
               "name": "Organic Allspice Berries",
               "brand": null,
               "sub": null,
@@ -356,7 +374,7 @@
           "section": "own",
           "items": [
             {
-              "num": 19,
+              "num": 20,
               "name": "Organic Raw Poppy Seeds",
               "brand": null,
               "sub": null,
@@ -373,7 +391,7 @@
               "section": "own"
             },
             {
-              "num": 20,
+              "num": 21,
               "name": "Organic Black Sesame Seeds",
               "brand": null,
               "sub": null,
@@ -391,7 +409,7 @@
               "section": "own"
             },
             {
-              "num": 21,
+              "num": 22,
               "name": "Organic Sesame Seeds",
               "brand": null,
               "sub": "Hulled",
@@ -409,7 +427,7 @@
               "section": "own"
             },
             {
-              "num": 22,
+              "num": 23,
               "name": "Organic Yellow Popcorn",
               "brand": null,
               "sub": "US Grown",
@@ -427,7 +445,7 @@
               "section": "own"
             },
             {
-              "num": 23,
+              "num": 24,
               "name": "Organic White Popcorn",
               "brand": null,
               "sub": "Non-GMO",
@@ -445,7 +463,7 @@
               "section": "own"
             },
             {
-              "num": 24,
+              "num": 25,
               "name": "Organic Rainbow Popcorn",
               "brand": null,
               "sub": "Non-GMO",
@@ -463,7 +481,7 @@
               "section": "own"
             },
             {
-              "num": 25,
+              "num": 26,
               "name": "Organic Ceylon Coconut Chips",
               "brand": null,
               "sub": "Raw",
@@ -481,7 +499,7 @@
               "section": "own"
             },
             {
-              "num": 26,
+              "num": 27,
               "name": "Organic Ceylon Coconut Chips",
               "brand": null,
               "sub": "Toasted",
@@ -499,7 +517,7 @@
               "section": "own"
             },
             {
-              "num": 27,
+              "num": 28,
               "name": "Organic Apricots",
               "brand": null,
               "sub": "Sun-Dried",
@@ -524,7 +542,7 @@
           "section": "own",
           "items": [
             {
-              "num": 28,
+              "num": 29,
               "name": "Organic Pure Stevia Powder",
               "brand": null,
               "sub": null,
@@ -542,7 +560,7 @@
               "section": "own"
             },
             {
-              "num": 29,
+              "num": 30,
               "name": "Organic Powdered Cane Sugar",
               "brand": null,
               "sub": null,
@@ -567,7 +585,7 @@
           "section": "own",
           "items": [
             {
-              "num": 30,
+              "num": 31,
               "name": "Organic Cacao Powder",
               "brand": null,
               "sub": "20-22% \u00b7 Raw",
@@ -585,7 +603,7 @@
               "section": "own"
             },
             {
-              "num": 31,
+              "num": 32,
               "name": "Organic Cacao Nibs",
               "brand": null,
               "sub": "100% Cacao \u00b7 Raw",
@@ -603,7 +621,7 @@
               "section": "own"
             },
             {
-              "num": 32,
+              "num": 33,
               "name": "Organic Chocolate Chunks",
               "brand": null,
               "sub": "70% Cacao",
@@ -628,7 +646,7 @@
           "section": "own",
           "items": [
             {
-              "num": 33,
+              "num": 34,
               "name": "Organic Coconut Activated Charcoal Powder",
               "brand": null,
               "sub": "NSF Certified \u00b7 Food Grade",
@@ -646,7 +664,7 @@
               "section": "own"
             },
             {
-              "num": 34,
+              "num": 35,
               "name": "Clay Toothpaste",
               "brand": null,
               "sub": "Organic Peppermint",
@@ -664,7 +682,7 @@
               "section": "own"
             },
             {
-              "num": 35,
+              "num": 36,
               "name": "Clay Toothpaste",
               "brand": null,
               "sub": "Organic Cinnamon",
@@ -682,7 +700,7 @@
               "section": "own"
             },
             {
-              "num": 36,
+              "num": 37,
               "name": "Organic Castor Oil",
               "brand": null,
               "sub": "USP Grade \u00b7 Hexane Free",
@@ -700,7 +718,7 @@
               "section": "own"
             },
             {
-              "num": 37,
+              "num": 38,
               "name": "Organic Black Cumin Seed Oil",
               "brand": null,
               "sub": "Cold Pressed",
@@ -725,7 +743,7 @@
           "section": "own",
           "items": [
             {
-              "num": 38,
+              "num": 39,
               "name": "Cookies",
               "brand": null,
               "sub": "Double Chocolate Chunk, 1 Piece",
@@ -740,7 +758,7 @@
               "section": "own"
             },
             {
-              "num": 39,
+              "num": 40,
               "name": "Cookies",
               "brand": null,
               "sub": "Double Chocolate Chunk, 6 Pieces (box)",
@@ -755,7 +773,7 @@
               "section": "own"
             },
             {
-              "num": 40,
+              "num": 41,
               "name": "Cookies",
               "brand": null,
               "sub": "Vanilla Chip, 1 Piece",
@@ -770,7 +788,7 @@
               "section": "own"
             },
             {
-              "num": 41,
+              "num": 42,
               "name": "Cookies",
               "brand": null,
               "sub": "Vanilla Chip, 6 Pieces (box)",
@@ -785,7 +803,7 @@
               "section": "own"
             },
             {
-              "num": 42,
+              "num": 43,
               "name": "Double Chocolate Chip Brownie",
               "brand": null,
               "sub": "1 Piece",
@@ -800,7 +818,7 @@
               "section": "own"
             },
             {
-              "num": 43,
+              "num": 44,
               "name": "Double Chocolate Chip Brownie",
               "brand": null,
               "sub": "6 Pieces (box)",
@@ -815,7 +833,7 @@
               "section": "own"
             },
             {
-              "num": 44,
+              "num": 45,
               "name": "Double Chocolate Chip Muffin",
               "brand": null,
               "sub": "1 Piece",
@@ -830,7 +848,7 @@
               "section": "own"
             },
             {
-              "num": 45,
+              "num": 46,
               "name": "Double Chocolate Chip Muffin",
               "brand": null,
               "sub": "4 Pieces (box)",
@@ -845,7 +863,7 @@
               "section": "own"
             },
             {
-              "num": 46,
+              "num": 47,
               "name": "Double Chocolate Chip Muffin",
               "brand": null,
               "sub": "6 Pieces (box)",
@@ -860,7 +878,7 @@
               "section": "own"
             },
             {
-              "num": 47,
+              "num": 48,
               "name": "Petit Four",
               "brand": null,
               "sub": "Double Chocolate, 200 g",
@@ -875,7 +893,7 @@
               "section": "own"
             },
             {
-              "num": 48,
+              "num": 49,
               "name": "Petit Four",
               "brand": null,
               "sub": "Double Chocolate, 300 g",
@@ -890,7 +908,7 @@
               "section": "own"
             },
             {
-              "num": 49,
+              "num": 50,
               "name": "Petit Four",
               "brand": null,
               "sub": "Apricot Jam, 200 g",
@@ -905,7 +923,7 @@
               "section": "own"
             },
             {
-              "num": 50,
+              "num": 51,
               "name": "Petit Four",
               "brand": null,
               "sub": "Apricot Jam, 300 g",
@@ -920,7 +938,7 @@
               "section": "own"
             },
             {
-              "num": 51,
+              "num": 52,
               "name": "Petit Four",
               "brand": null,
               "sub": "Strawberry Jam, 200 g",
@@ -935,7 +953,7 @@
               "section": "own"
             },
             {
-              "num": 52,
+              "num": 53,
               "name": "Petit Four",
               "brand": null,
               "sub": "Strawberry Jam, 300 g",
@@ -950,7 +968,7 @@
               "section": "own"
             },
             {
-              "num": 53,
+              "num": 54,
               "name": "Petit Four",
               "brand": null,
               "sub": "Vanilla Chocolate, 200 g",
@@ -965,7 +983,7 @@
               "section": "own"
             },
             {
-              "num": 54,
+              "num": 55,
               "name": "Petit Four",
               "brand": null,
               "sub": "Vanilla Chocolate, 300 g",
@@ -980,7 +998,7 @@
               "section": "own"
             },
             {
-              "num": 55,
+              "num": 56,
               "name": "Petit Four",
               "brand": null,
               "sub": "Variety Chocolate, 200 g",
@@ -995,7 +1013,7 @@
               "section": "own"
             },
             {
-              "num": 56,
+              "num": 57,
               "name": "Petit Four",
               "brand": null,
               "sub": "Variety Chocolate, 300 g",
@@ -1010,7 +1028,7 @@
               "section": "own"
             },
             {
-              "num": 57,
+              "num": 58,
               "name": "Petit Four",
               "brand": null,
               "sub": "Variety Jam, 200 g",
@@ -1025,7 +1043,7 @@
               "section": "own"
             },
             {
-              "num": 58,
+              "num": 59,
               "name": "Petit Four",
               "brand": null,
               "sub": "Variety Jam, 300 g",
@@ -1040,7 +1058,7 @@
               "section": "own"
             },
             {
-              "num": 59,
+              "num": 60,
               "name": "Sable 1ct",
               "brand": null,
               "sub": "Double Chocolate",
@@ -1057,7 +1075,7 @@
               "section": "own"
             },
             {
-              "num": 60,
+              "num": 61,
               "name": "Sable 1ct",
               "brand": null,
               "sub": "Vanilla Chocolate",
@@ -1074,7 +1092,7 @@
               "section": "own"
             },
             {
-              "num": 61,
+              "num": 62,
               "name": "Sable 1ct",
               "brand": null,
               "sub": "Apricot Jam",
@@ -1091,7 +1109,7 @@
               "section": "own"
             },
             {
-              "num": 62,
+              "num": 63,
               "name": "Sable 1ct",
               "brand": null,
               "sub": "Strawberry Jam",
@@ -1115,7 +1133,7 @@
           "section": "own",
           "items": [
             {
-              "num": 63,
+              "num": 64,
               "name": "Berrilicious",
               "brand": null,
               "sub": null,
@@ -1133,7 +1151,7 @@
               "section": "own"
             },
             {
-              "num": 64,
+              "num": 65,
               "name": "Berry Noir Chews",
               "brand": null,
               "sub": null,
@@ -1151,7 +1169,7 @@
               "section": "own"
             },
             {
-              "num": 65,
+              "num": 66,
               "name": "SoulBerry Chews",
               "brand": null,
               "sub": null,
@@ -1169,7 +1187,7 @@
               "section": "own"
             },
             {
-              "num": 66,
+              "num": 67,
               "name": "TuttiFrutti",
               "brand": null,
               "sub": null,
@@ -1187,7 +1205,7 @@
               "section": "own"
             },
             {
-              "num": 67,
+              "num": 68,
               "name": "FruitVine Laces",
               "brand": null,
               "sub": null,
@@ -1205,7 +1223,7 @@
               "section": "own"
             },
             {
-              "num": 68,
+              "num": 69,
               "name": "Lollie Patch",
               "brand": null,
               "sub": null,
@@ -1236,7 +1254,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 69,
+              "num": 70,
               "name": "Pine Pollen Powder",
               "brand": "Pine Pollen",
               "sub": null,
@@ -1254,7 +1272,7 @@
               "section": "wide"
             },
             {
-              "num": 70,
+              "num": 71,
               "name": "Organic Instant Coffee",
               "brand": "Four Sigmatic",
               "sub": "With Chaga & Cordyceps Mushrooms",
@@ -1272,7 +1290,7 @@
               "section": "wide"
             },
             {
-              "num": 71,
+              "num": 72,
               "name": "Organic Instant Coffee",
               "brand": "Four Sigmatic",
               "sub": "With Ashwagandha, Chaga, Eleuthero & Tulsi",
@@ -1297,7 +1315,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 72,
+              "num": 73,
               "name": "Organic Simple Vegan Protein Powder",
               "brand": "Orgain",
               "sub": "Creamy Chocolate",
@@ -1315,7 +1333,7 @@
               "section": "wide"
             },
             {
-              "num": 73,
+              "num": 74,
               "name": "Organic Simple Vegan Protein Powder",
               "brand": "Orgain",
               "sub": "Creamy Vanilla",
@@ -1333,7 +1351,7 @@
               "section": "wide"
             },
             {
-              "num": 74,
+              "num": 75,
               "name": "Grass Fed Collagen Peptides",
               "brand": "Orgain",
               "sub": "Unflavored \u00b7 Hair, Skin, Nail & Joint Support",
@@ -1351,7 +1369,7 @@
               "section": "wide"
             },
             {
-              "num": 75,
+              "num": 76,
               "name": "Grass Fed Collagen Peptides",
               "brand": "Orgain",
               "sub": "+ Pre & Probiotics \u00b7 Hair, Skin, Nail, Joint & Gut Support",
@@ -1369,7 +1387,7 @@
               "section": "wide"
             },
             {
-              "num": 76,
+              "num": 77,
               "name": "Grass Fed Keto Collagen",
               "brand": "Orgain",
               "sub": "Chocolate",
@@ -1394,7 +1412,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 77,
+              "num": 78,
               "name": "Lugols Iodine",
               "brand": "J Crows",
               "sub": "5%",
@@ -1412,7 +1430,7 @@
               "section": "wide"
             },
             {
-              "num": 78,
+              "num": 79,
               "name": "Lugols Iodine",
               "brand": "J Crows",
               "sub": "2%",
@@ -1430,7 +1448,7 @@
               "section": "wide"
             },
             {
-              "num": 79,
+              "num": 80,
               "name": "Organic Non-Alcoholic Vanilla",
               "brand": "Simply Organic",
               "sub": null,
@@ -1448,7 +1466,7 @@
               "section": "wide"
             },
             {
-              "num": 80,
+              "num": 81,
               "name": "Organic Aloe Vera",
               "brand": "Lily of the Desert",
               "sub": "Inner Leaf",
@@ -1473,7 +1491,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 81,
+              "num": 82,
               "name": "Wild White Anchovies",
               "brand": "Wild Planet",
               "sub": "Extra Virgin Olive Oil",
@@ -1491,7 +1509,7 @@
               "section": "wide"
             },
             {
-              "num": 82,
+              "num": 83,
               "name": "Wild Pink Salmon",
               "brand": "StarKist",
               "sub": "Water",
@@ -1509,7 +1527,7 @@
               "section": "wide"
             },
             {
-              "num": 83,
+              "num": 84,
               "name": "Wild Caught Sardines",
               "brand": "Chicken of the Sea",
               "sub": "Olive Oil",
@@ -1527,7 +1545,7 @@
               "section": "wide"
             },
             {
-              "num": 84,
+              "num": 85,
               "name": "Wild Caught Sardines",
               "brand": "Chicken of the Sea",
               "sub": "in Water",
@@ -1545,7 +1563,7 @@
               "section": "wide"
             },
             {
-              "num": 85,
+              "num": 86,
               "name": "Brunswick Gourmet Brisling Sardines",
               "brand": "Brunswick",
               "sub": "in Extra Virgin Olive Oil",
@@ -1563,7 +1581,7 @@
               "section": "wide"
             },
             {
-              "num": 86,
+              "num": 87,
               "name": "Brunswick Gourmet Brisling Sardines",
               "brand": "Brunswick",
               "sub": "Mediterranean Style \u00b7 Black Olives, Herbs & Spices",
@@ -1588,7 +1606,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 87,
+              "num": 88,
               "name": "Organic Whole European Elderberries",
               "brand": "Frontier",
               "sub": null,
@@ -1606,7 +1624,7 @@
               "section": "wide"
             },
             {
-              "num": 88,
+              "num": 89,
               "name": "Celtic Sea Salt",
               "brand": "Selina Naturally",
               "sub": "Fine Ground",
@@ -1631,7 +1649,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 89,
+              "num": 90,
               "name": "Organic Pure Stevia Powder",
               "brand": "365 by Whole Foods",
               "sub": null,
@@ -1656,7 +1674,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 90,
+              "num": 91,
               "name": "Almond Flour",
               "brand": "Blue Diamond Almonds",
               "sub": "Finely Sifted",
@@ -1674,7 +1692,7 @@
               "section": "wide"
             },
             {
-              "num": 91,
+              "num": 92,
               "name": "Tapioca Flour",
               "brand": "Bob's Red Mill",
               "sub": null,
@@ -1699,7 +1717,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 92,
+              "num": 93,
               "name": "Natural Laundry Powder",
               "brand": "Molly's Suds",
               "sub": "Peppermint",
@@ -1717,7 +1735,7 @@
               "section": "wide"
             },
             {
-              "num": 93,
+              "num": 94,
               "name": "Natural Laundry Powder",
               "brand": "Molly's Suds",
               "sub": "Active Wear Stain Fighting",
@@ -1742,7 +1760,7 @@
           "section": "wide",
           "items": [
             {
-              "num": 94,
+              "num": 95,
               "name": "Organic Lollipops",
               "brand": "Charms",
               "sub": "265ct",
@@ -1760,7 +1778,7 @@
               "section": "wide"
             },
             {
-              "num": 95,
+              "num": 96,
               "name": "Organic Giggles",
               "brand": "YumEarth",
               "sub": "Assorted Fruit, 6ct x 142g",
@@ -1778,7 +1796,7 @@
               "section": "wide"
             },
             {
-              "num": 96,
+              "num": 97,
               "name": "Organic Giggles",
               "brand": "YumEarth",
               "sub": "Sour, 6ct x 142g",
@@ -1796,7 +1814,7 @@
               "section": "wide"
             },
             {
-              "num": 97,
+              "num": 98,
               "name": "Organic Gummies",
               "brand": "YumEarth",
               "sub": "Assorted Fruit, 6ct x 142g",
@@ -1814,7 +1832,7 @@
               "section": "wide"
             },
             {
-              "num": 98,
+              "num": 99,
               "name": "Organic Licorice",
               "brand": "YumEarth",
               "sub": "Black Licorice, 6ct x 142g",
@@ -1832,7 +1850,7 @@
               "section": "wide"
             },
             {
-              "num": 99,
+              "num": 100,
               "name": "Organic Licorice",
               "brand": "YumEarth",
               "sub": "Strawberry, 6ct x 142g",
@@ -1850,7 +1868,7 @@
               "section": "wide"
             },
             {
-              "num": 100,
+              "num": 101,
               "name": "Organic Giggles",
               "brand": "YumEarth",
               "sub": "12ct x 57g",
@@ -1868,7 +1886,7 @@
               "section": "wide"
             },
             {
-              "num": 101,
+              "num": 102,
               "name": "Organic Sour Giggles",
               "brand": "YumEarth",
               "sub": "12ct x 57g",
@@ -1886,7 +1904,7 @@
               "section": "wide"
             },
             {
-              "num": 102,
+              "num": 103,
               "name": "Organic Giggles",
               "brand": "YumEarth",
               "sub": "120ct",
@@ -1904,7 +1922,7 @@
               "section": "wide"
             },
             {
-              "num": 103,
+              "num": 104,
               "name": "Organic Fruit Snack",
               "brand": "YumEarth",
               "sub": "Assorted Fruit, 10ct x 19g",
@@ -1922,7 +1940,7 @@
               "section": "wide"
             },
             {
-              "num": 104,
+              "num": 105,
               "name": "Organic Fruit Snack",
               "brand": "YumEarth",
               "sub": "Tropical, 10ct x 19g",
@@ -1940,7 +1958,7 @@
               "section": "wide"
             },
             {
-              "num": 105,
+              "num": 106,
               "name": "Zaffi Taffy",
               "brand": "Zollipops",
               "sub": "KETO - Sugar Free Assorted Fruit",
@@ -1958,7 +1976,7 @@
               "section": "wide"
             },
             {
-              "num": 106,
+              "num": 107,
               "name": "Chewing Gum",
               "brand": "Pur",
               "sub": "Peppermint",
@@ -1976,7 +1994,7 @@
               "section": "wide"
             },
             {
-              "num": 107,
+              "num": 108,
               "name": "Chewing Gum",
               "brand": "Pur",
               "sub": "Bubblegum",
@@ -1994,7 +2012,7 @@
               "section": "wide"
             },
             {
-              "num": 108,
+              "num": 109,
               "name": "Hard Candies",
               "brand": "Torie & Howard",
               "sub": null,
