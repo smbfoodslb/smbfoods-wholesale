@@ -59,6 +59,22 @@ h1, h2, h3, .serif { font-family: Georgia, 'Liberation Serif', serif; }
 }
 .brand-sub b { color: var(--ink); }
 
+.cart-header-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cart-header-total {
+  font-family: 'Courier New', 'Liberation Mono', monospace;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--navy);
+  background: #eef2f6;
+  border-radius: 999px;
+  padding: 7px 12px;
+  white-space: nowrap;
+}
+
 .cart-toggle {
   position: relative;
   background: var(--navy);
@@ -474,4 +490,6 @@ h1, h2, h3, .serif { font-family: Georgia, 'Liberation Serif', serif; }
   .brand-name { font-size: 18px; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
   .card-img { height: 110px; }
+  .cart-header-total { font-size: 12.5px; padding: 6px 9px; }
+  .cart-toggle { padding: 8px 11px; }
 }

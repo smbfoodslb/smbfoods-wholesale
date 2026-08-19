@@ -196,8 +196,9 @@ function updateCardQtyUI(num) {
 }
 
 function renderCartCount() {
-  const { count } = cartTotal();
+  const { count, total } = cartTotal();
   document.getElementById("cartCount").textContent = count;
+  document.getElementById("cartHeaderTotal").textContent = `$${total.toFixed(2)}`;
 }
 
 function renderCartDrawer() {
