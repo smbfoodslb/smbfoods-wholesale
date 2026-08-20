@@ -53,7 +53,7 @@ function unitPrice(p) {
 // size) so it's immediately clear what they're getting — click once on a
 // case of 12 and it reads "12", click again and it reads "24".
 function displayQty(p, qty) {
-  if (p.case_only && p.case_qty) return qty * p.case_qty;
+  if (p.case_only && p.case_qty && p.case_show_pieces) return qty * p.case_qty;
   return qty;
 }
 
