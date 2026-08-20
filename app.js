@@ -38,6 +38,25 @@ function isPurchasable(p) {
   return p.status !== "soon" && p.status !== "oos" && p.price != null;
 }
 
+// Case-only items (canned seafood, YumEarth, Pur gum) are sold by the case,
+// not the piece — the card still displays the per-piece price for reference,
+// but every cart calculation (stepper line total, drawer, WhatsApp order,
+// header running total) charges the case price instead.
+function unitPrice(p) {
+  if (p.case_only && p.case_price != null) return p.case_price;
+  return p.price;
+}
+
+// For case-only items the cart still tracks the number of CASES internally
+// (that's what each +/- click adds and what the price is charged per), but
+// the number shown to the customer is the actual piece count (qty × case
+// size) so it's immediately clear what they're getting — click once on a
+// case of 12 and it reads "12", click again and it reads "24".
+function displayQty(p, qty) {
+  if (p.case_only && p.case_qty) return qty * p.case_qty;
+  return qty;
+}
+
 function setQty(num, qty) {
   const p = findProduct(num);
   if (!p) return;
@@ -58,7 +77,7 @@ function cartTotal() {
   for (const numStr of Object.keys(cart)) {
     const p = findProduct(Number(numStr));
     if (!p || p.price == null) continue;
-    total += p.price * cart[numStr];
+    total += unitPrice(p) * cart[numStr];
     count += cart[numStr];
   }
   return { total, count };
@@ -94,12 +113,12 @@ function cartControlHtml(p) {
   if (qty === 0) {
     return `<span class="card-line-total"></span><button class="add-btn" data-add="${p.num}" aria-label="Add to cart">+</button>`;
   }
-  const lineTotal = (p.price * qty).toFixed(2);
+  const lineTotal = (unitPrice(p) * qty).toFixed(2);
   return `
     <span class="card-line-total">$${lineTotal}</span>
     <div class="qty-stepper" data-stepper="${p.num}">
       <button data-dec="${p.num}" aria-label="Decrease quantity">&minus;</button>
-      <span class="qty-num">${qty}</span>
+      <span class="qty-num">${displayQty(p, qty)}</span>
       <button data-inc="${p.num}" aria-label="Increase quantity">+</button>
     </div>`;
 }
@@ -212,7 +231,7 @@ function renderCartDrawer() {
         const num = Number(numStr);
         const p = findProduct(num);
         const qty = cart[numStr];
-        const lineTotal = (p.price * qty).toFixed(2);
+        const lineTotal = (unitPrice(p) * qty).toFixed(2);
         return `
         <div class="cart-line">
           <div class="cart-line-img"><img src="${imgSrc(p)}" alt="" onerror="this.src='${PLACEHOLDER_IMG}'"></div>
@@ -222,7 +241,7 @@ function renderCartDrawer() {
             <div class="cart-line-controls">
               <div class="qty-stepper" data-stepper="${num}">
                 <button data-dec="${num}" aria-label="Decrease quantity">&minus;</button>
-                <span class="qty-num">${qty}</span>
+                <span class="qty-num">${displayQty(p, qty)}</span>
                 <button data-inc="${num}" aria-label="Increase quantity">+</button>
               </div>
               <span class="cart-line-price">$${lineTotal}</span>
@@ -257,11 +276,11 @@ function buildOrderMessage() {
     const num = Number(numStr);
     const p = findProduct(num);
     const qty = cart[numStr];
-    const lineTotal = p.price * qty;
+    const lineTotal = unitPrice(p) * qty;
     total += lineTotal;
     const label = p.brand ? `${p.brand} ${p.name}` : p.name;
     const subLabel = p.sub ? ` (${p.sub})` : "";
-    lines.push(`No. ${String(num).padStart(3, "0")} — ${label}${subLabel} × ${qty} — $${lineTotal.toFixed(2)}`);
+    lines.push(`No. ${String(num).padStart(3, "0")} — ${label}${subLabel} × ${displayQty(p, qty)} — $${lineTotal.toFixed(2)}`);
   });
   lines.push("");
   lines.push(`Total: $${total.toFixed(2)}`);
